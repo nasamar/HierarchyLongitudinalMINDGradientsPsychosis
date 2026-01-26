@@ -15,7 +15,7 @@ This repository contains code and data created in support of the project García
 
 ## **Code**
 
-The `Code` folder contains all the code required for running the analyses and generate data and figures. All scripts are designed to be sequentially executed. Don't forget to change the location variable regularly. 
+The [`Code`](Code/) folder contains all the code required for running the analyses and generate data and figures. All scripts are designed to be sequentially executed. Don't forget to change the location variable regularly. 
 
 -	The code used to compute MIND networks is available at https://github.com/isebenius/MIND and corresponds to [MIND_long_01_MIND.py](Code/MIND_long_01_MIND.py).
 
