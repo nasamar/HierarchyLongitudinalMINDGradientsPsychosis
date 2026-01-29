@@ -5,20 +5,20 @@
 
 % Written by Natalia García San Martín (ngarcia1@us.es)
 
-% This file is part of Hierarchy Longitudinal Gradients Psychosis toolkit.
+% This file is part of Hierarchy Longitudinal MIND Gradients Psychosis toolkit.
 %
-% Hierarchy Longitudinal Gradients Psychosis toolkit is free software: 
+% Hierarchy Longitudinal MIND Gradients Psychosis toolkit is free software: 
 % you can redistribute it and/or modify it under the terms of the 
 % GNU General Public License as published by the Free Software Foundation, 
 % either version 3 of the License, or (at your option) any later version.
 %
-% Hierarchy Longitudinal Gradients Psychosis toolkit is distributed in the hope that 
+% Hierarchy Longitudinal MIND Gradients Psychosis toolkit is distributed in the hope that 
 % it will be useful, but WITHOUT ANY WARRANTY; without even the implied 
 % warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 % GNU General Public License for more details.
 %
 % You should have received a copy of the GNU General Public License
-% along with Hierarchy Longitudinal Gradients Psychosis toolkit. If not, see 
+% along with Hierarchy Longitudinal MIND Gradients Psychosis toolkit. If not, see 
 % <https://www.gnu.org/licenses/>.
 
 close all
@@ -570,6 +570,7 @@ colorbar_white_centered(r_partial_matrix_baseline)
 
 figure;
 heatmap(p_spin_matrix_baseline_corrected','XData',r_partial_matrix.Properties.RowNames,'YData',{'dx1 degrees','dx1 G1','dx1 G2'},'Title','p spin');
+
 
 
 
